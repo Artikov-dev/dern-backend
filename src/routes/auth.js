@@ -282,7 +282,7 @@ router.get("/activate/:token", async (req, res) => {
 
         // Redirect to frontend login page
         const clientUrl = process.env.CLIENT_URL || "https://artikov-dev.github.io/dern-frontend";
-        res.redirect(`${clientUrl}/login?activated=true`);
+        res.redirect(`${clientUrl}/dern-frontend/login?activated=true`);
     } catch (err) {
         console.error(`[${new Date().toISOString()}] Activation error for token ${req.params.token}:`, err);
         res.status(500).json({
