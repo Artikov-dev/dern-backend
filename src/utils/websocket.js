@@ -7,7 +7,7 @@ let io
 export const initializeWebSocket = (server) => {
   io = new Server(server, {
     cors: {
-      origin: process.env.CLIENT_URL || "https://otabekoff.github.io/dern-frontend/",
+      origin: process.env.CLIENT_URL || "https://Artikov-dev.github.io/dern-frontend/",
       credentials: true,
     },
   })

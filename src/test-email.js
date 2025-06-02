@@ -15,7 +15,7 @@ const transporter = nodemailer.createTransport({
 });
 
 transporter.sendMail({
-    from: process.env.GMAIL_FROM || 'Dern Support <sadiridinovotabek@gmail.com>',
+    from: process.env.GMAIL_FROM || 'Dern Support <artikovrozik52@gmail.com>',
     to: 'use4552@gmail.com', // Test with your email
     subject: 'Test Email',
     text: 'This is a test email from Dern-Support backend.',

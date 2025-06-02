@@ -75,7 +75,7 @@ app.use("/uploads", express.static(path.join(__dirname, "../uploads")))
 app.use(cookieParser())
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "https://otabekoff.github.io/dern-frontend/",
+    origin: process.env.CLIENT_URL || "https://Artikov-dev.github.io",
     credentials: true,
   }),
 )
@@ -94,7 +94,7 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument))
 
 // Default route
 app.get("/", (req, res) => {
-  res.send("Dern-Support backend server is running")
+  res.send(`Dern-Support backend server is running " ${process.env.NODE_ENV} ${process.env.CLIENT_URL} ${process.env.BACKEND_URL}`)
 })
 
 // Health check endpoint
@@ -118,7 +118,7 @@ app.use((err, req, res, next) => {
 })
 
 server.listen(PORT, () => {
-  console.log(`🚀 Server is running on: http://localhost:${PORT}`)
-  console.log(`📚 API Documentation: http://localhost:${PORT}/api-docs`)
+  console.log(`🚀 Server is running on port ${PORT}`)
+  console.log(`📚 API Documentation is running on ${PORT}/api-docs`)
   console.log(`🔌 WebSocket server initialized`)
 })

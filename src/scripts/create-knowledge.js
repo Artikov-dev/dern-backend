@@ -1,7 +1,7 @@
 import { MongoClient, ObjectId } from "mongodb";
 
 // Replace with your actual MongoDB URI and User ID
-const uri = "mongodb+srv://otabek:7ltxFDiBcrFNjtrw@cluster0.poqkapp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const uri = "mongodb+srv://artikovrozik52:rgUrlXVQCpXsmPSI@cluster0.v6i87y2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 const dbName = "test";
 const collectionName = "knowledgebases";
 const dummyAuthorId = new ObjectId("683367fd7c92abd42355c379"); // Replace with a valid User ID

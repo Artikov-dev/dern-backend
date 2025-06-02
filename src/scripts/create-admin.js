@@ -20,7 +20,7 @@ const createFirstAdmin = async () => {
     // Create the first admin user
     const adminData = {
       username: "dern_admin",
-      email: "sadiridinovotabek@gmail.com", // Change this to your email
+      email: "artikovrozik52@gmail.com", // Change this to your email
       passwordHash: "admin123", // Change this password
       role: "admin",
       accountType: "business",

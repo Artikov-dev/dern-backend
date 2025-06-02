@@ -3,7 +3,7 @@
 The Dern Backend is a Node.js/Express API powering user authentication for the Dern Support platform. It provides secure user registration, login, and email-based account activation, integrating with MongoDB for data storage and an SMTP service for sending emails.
 
 > [!NOTE]
-> Supported API endpoints are available at [Auto Generated Swagger Docs](https://dern-backend-plc9.onrender.com/api-docs/)
+> Supported API endpoints are available at [Auto Generated Swagger Docs](https://dern-backend-fbtx.onrender.com/api-docs/)
 
 ## Table of Contents
 - [Features](#features)
@@ -35,7 +35,7 @@ The Dern Backend is a Node.js/Express API powering user authentication for the D
 ## Setup
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/dern-backend.git
+   git clone https://github.com/Artikov-dev/dern-backend.git
    cd dern-backend
    ```
 
@@ -62,10 +62,10 @@ The Dern Backend is a Node.js/Express API powering user authentication for the D
    ```bash
    npm start
    ```
-   - Runs on `https://dern-backend-plc9.onrender.com` by default.
+   - Runs on `https://dern-backend-fbtx.onrender.com` by default.
 
 3. **Connect with Frontend**:
-   - Ensure the frontend is configured to communicate with the backend’s API (e.g., `https://dern-backend-plc9.onrender.com/api/v1`).
+   - Ensure the frontend is configured to communicate with the backend’s API (e.g., `https://dern-backend-fbtx.onrender.com/api/v1`).
 
 ## API Overview
 - **POST `/api/v1/auth/register`**: Register a new user and send an activation email.
